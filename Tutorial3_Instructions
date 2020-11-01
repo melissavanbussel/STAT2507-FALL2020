@@ -1,0 +1,22 @@
+Part 1: Opening SPSS 
+- Open SPSS
+- Double click “New Dataset”
+Part 2: Creating CDF for a Binomial(n = 15, p = 0.4) random variable
+- Go to the Variable View tab on the empty spreadsheet
+- Type two variables under the “Name” column: X and CDF 
+- Set “Measure” to “Scale” for both 
+- Increase “Width” of the CDF variable to 10
+- Set “Decimals” to 0 for X and 8 for CDF 
+- Switch back to the Data View tab
+- Enter the numbers 0 through 15 in the X column
+- Transform > Compute Variable
+- Type “CDF” under Target Variable 
+- Under “Function Group”, click “CDF & Non-Central CDF” 
+- Under “Functions and Special Variables”, double click Cdf.Binom  
+- Replace “?, ?, ?” with “X, 15, 0.4” and press OK. Include a screenshot of the CDF column for A3.
+
+Part 3: Creating CDF for a Poisson(mu = 3) random variable
+- File > New > Data 
+- Repeat the first 10 steps from part 3 (but enter 0 through 30 in the X column rather than 0 through 15)
+- Under “Functions and Special Variables”, double click Cdf.Poisson
+- Replace “?, ?” with “X, 3” and press OK. Include a screenshot of the CDF column for A3. (Note: If you can’t fit the entire column in your screenshot, just include the first 18 rows, up to when the CDF becomes 1.00000000)  
