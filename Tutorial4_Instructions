@@ -1,0 +1,32 @@
+Part 1: Opening SPSS 
+- Open SPSS
+- Double click “New Dataset”
+
+Part 2: Exploring the sampling distribution of Xbar (sample mean)  
+- Copy / paste the data from the Excel spreadsheet, page 1 (not the column names)
+- Go to the Variable View tab on the empty spreadsheet
+- Type two variables under the “Name” column: S5 and S30 
+- Set “Measure” to “Scale” for both 
+- Increase “Width” of both variables to 11
+- Set “Decimals” of both variables to 9
+- Switch back to the Data View tab
+- Enter the numbers 0 through 15 in the X column
+- Graphs > Legacy Dialogs > Histogram
+- Select “S5” for Variable, click OK 
+- Repeat the steps for “S30”
+- Analyze > Compare Means > Means
+- Select both variables for “Dependent List”
+- Click “Options”, check off “Mean” and “Std. Error of Mean”, click “Continue” then click OK 
+
+Part 3: Difference of Means Hypothesis Test
+- File > New > Data 
+- Copy / paste the data from the Excel spreadsheet, page 2 (not the column names)
+- Go to the Variable View tab on the empty spreadsheet
+- Type two variables under the “Name” column: Drop and Drug
+- Set “Measure” to “Scale” for Drop, “Nominal” for Drug 
+- Make sure Drug is set to “String” (under “Type”)
+- Switch back to the Data View tab
+- Analyze > Compare Means > Independent-Samples T Test
+- Select Drop for “Test Variable(s)” and Drug for “Grouping Variable” 
+- Click “Define Groups”, then set Group 1 = A and Group 2 = B
+- Continue > OK > Options, make sure “Confidence Interval Percentage” says 95%, click OK 
